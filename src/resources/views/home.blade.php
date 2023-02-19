@@ -1,5 +1,5 @@
 
-<div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('{{ asset('images/pallet_collection_booking.jpg') }}');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text justify-content-start align-items-center">
@@ -37,7 +37,7 @@
 <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
         <div class="row no-gutters">
-            <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+            <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/pallet_service.jpg);">
             </div>
             <div class="col-md-6 wrap-about py-md-5 ftco-animate">
                 <div class="heading-section mb-5 pl-md-5">
@@ -63,7 +63,7 @@
         </div>
     </div>
 </section>
-<section class="ftco-section services-section img" style="background-image: url(images/bg_2.jpg);">
+<section class="ftco-section services-section img" style="background-image: url(images/pallet_delivery.jpg);">
     <div class="overlay"></div>
     <div class="container">
         <div class="row justify-content-center mb-5">
@@ -77,8 +77,8 @@
                 <div class="media block-6 services services-2">
                     <div class="media-body py-md-4 text-center">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
-                        <h3>Pick Destination</h3>
-                        <p>A small river named Duden flows by their place and supplies it with you</p>
+                        <h3>Enter details</h3>
+                        <p>Provide us with your collection and delivery postcodes</p>
                     </div>
                 </div>
             </div>
@@ -86,8 +86,8 @@
                 <div class="media block-6 services services-2">
                     <div class="media-body py-md-4 text-center">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-select"></span></div>
-                        <h3>Select Term</h3>
-                        <p>A small river named Duden flows by their place and supplies it with you</p>
+                        <h3>Get your quote</h3>
+                        <p>We will calculate your quote, giving you a low price for your delivery</p>
                     </div>
                 </div>
             </div>
@@ -95,8 +95,8 @@
                 <div class="media block-6 services services-2">
                     <div class="media-body py-md-4 text-center">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rent"></span></div>
-                        <h3>Choose A Car</h3>
-                        <p>A small river named Duden flows by their place and supplies it with you</p>
+                        <h3>Book</h3>
+                        <p>Use our simple checkout form to complete the booking, no sign-up required</p>
                     </div>
                 </div>
             </div>
@@ -104,8 +104,8 @@
                 <div class="media block-6 services services-2">
                     <div class="media-body py-md-4 text-center">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-review"></span></div>
-                        <h3>Enjoy The Ride</h3>
-                        <p>A small river named Duden flows by their place and supplies it with you</p>
+                        <h3>Relax</h3>
+                        <p>Track your pallet online and relax while we do the lifting</p>
                     </div>
                 </div>
             </div>

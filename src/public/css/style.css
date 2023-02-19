@@ -8233,6 +8233,24 @@ h1, h2, h3, h4, h5,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 700px !important; }
 
+.hero-wrap.hero-wrap-3 {
+    height: 300px !important;
+    position: relative; }
+.hero-wrap.hero-wrap-3 .overlay {
+    width: 100%;
+    opacity: .05;
+    height: 300px; }
+.hero-wrap.hero-wrap-3 .slider-text {
+    height: 300px !important; }
+
+table.table.table-striped td {
+    padding: .25rem !important;
+}
+
+table.table.table-striped {
+    min-width: unset !important;
+}
+
 .slider-text {
   height: 850px; }
   @media (max-width: 991.98px) {

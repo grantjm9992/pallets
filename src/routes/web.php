@@ -30,6 +30,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/terms', function () {
+    return view('terms');
+});
+
 Route::get('/order/{slug}', [OrderController::class, 'route']);
 
 Route::post('/payment', [OrderController::class, 'makeOrder']);

@@ -30,6 +30,6 @@ class OrderController extends Controller
         $order['product_id'] = $product->id;
         $order->save();
 
-        return view('payment', ['order', $order]);
+        return view('payment', ['order' => $order, 'product' => $product]);
     }
 }

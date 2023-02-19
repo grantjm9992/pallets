@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Autoroad - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Pallet Couriers Pallet Collection and Delivery Online Pallet Delivery Service for UK, Europe and Worldwide</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Language" content="en-gb">
+    <meta http-equiv="reply-to" content="info@palletcourier.co.uk">
+    <meta name="author" content="Pallet Delivery Courier">
+    <meta name="classification" content="Pallet Courier Deliveries">
+    <meta name="copyright" content="Pallet Courier 2012">
+    <meta name="description" content="Welcome to Pallet Courier.co.uk Pallet Delivery Service We are a UK based independent pallet delivery courier company delivering an online pallet collection and delivery service to the general public and business..">
+    <meta name="keywords" content="Pallet Delivery in the UK Ireland world, worldwide, man and van, pallet,delivery,uk,pallet delivery service,pallets,online pallet, pallet delivery uk, pallet service, pallet courier, pallet delivery, pallet delivery services, package delivery service, pallet delivery england, UK, pallet courier delivery, online courier uk, package parcel shipping, package delivery shipping services, parcel delivery services, Transportation Delivery Services">
+    <meta name="robots" content="ALL">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap"
           rel="stylesheet">
@@ -25,7 +33,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Auto<span>road</span></a>
+        <a class="navbar-brand" href="{{ url('/') }}">Pallet<span>courier</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu

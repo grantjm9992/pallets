@@ -1,7 +1,7 @@
 @include('header')
 
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/pallet_delivery.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
@@ -17,7 +17,7 @@
 <section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
         <div class="row no-gutters">
-            <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+            <div class="col-md-6 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/pallet_service.jpg);">
             </div>
             <div class="col-md-6 wrap-about py-md-5 ftco-animate">
                 <div class="heading-section mb-5 pl-md-5">
