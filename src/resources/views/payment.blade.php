@@ -220,7 +220,7 @@
         <div id="paypal-button-container"></div>
     </div>
 </div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=GBP" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=ASnV65yHYOOq2HK-m5vCmPO15WcGYTadygtVRlPWPMW4VG3KZeS1EIZp3DApiZJOIGOxnHVT12w24Dwj&enable-funding=venmo&currency=GBP" data-sdk-integration-source="button-factory"></script>
 <script>
     function initPayPalButton() {
         paypal.Buttons({
@@ -249,7 +249,19 @@
                     element.innerHTML = '';
                     element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
-                    // Or go to another URL:  actions.redirect('thank_you.html');
+                    let xhr = new XMLHttpRequest();
+
+                    xhr.onreadystatechange = function () {
+                        if (this.readyState !== 4) return;
+
+                        if (this.status === 200) {
+                            window.location.href = '/payment/success'
+                        }
+                    };
+
+                    xhr.open('POST', '/payment/success', true);
+                    xhr.setRequestHeader('Content-Type', 'application/json');
+                    xhr.send(JSON.stringify(orderData));
 
                 });
             },
